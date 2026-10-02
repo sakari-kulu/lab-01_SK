@@ -182,7 +182,7 @@ All values in the output are `NA`!
 
 _What does `NA` stand for and why are you getting this as your answer to the previous question._
 
-**Write your answer here**
+**Not available**
 
 
 
@@ -191,7 +191,7 @@ _What does `NA` stand for and why are you getting this as your answer to the pre
 
 _Look at the help pages for the `mean()` and `median()` commands to see what the input argument `na.rm` does. Edit your code from exercise h so that it computes the summary statistics where data is available._
 
-**Write your answer here**
+**232430.7, 129829**
 
 
 
@@ -220,11 +220,10 @@ _Observe in question 6 that the mean statistics across all settings are much lar
 ### Exercise l.
 
 ```{r Q8}
-#visitors %>% 
-#  summarise(
-#     __________,
-#     __________,
-#  )
+visitors %>% 
+  summarise(
+    max_no = max(n_2021),
+    min_no = min(n_2021),)
 ```
 
 ## Question 9
